@@ -1,0 +1,34 @@
+# Allowlist .gitignore — ignore everything by default, then include only the files and
+# folders that make up the Renesas e2 studio / FSP project, so a fresh clone imports and
+# builds straight away. Anything not listed below (build output, editor/tooling configs,
+# working notes) is intentionally excluded.
+
+# Ignore everything at the repository root.
+/*
+
+# --- Keep this file and the repo README + its assets ---
+!/.gitignore
+!/README.md
+!/assets/
+
+# --- e2 studio / Eclipse CDT project definition ---
+!/.project
+!/.cproject
+!/.settings/
+
+# --- Renesas FSP project metadata ---
+!/.api_xml
+!/.secure_azone
+!/.secure_rzone
+!/.secure_xml
+!/configuration.xml
+!/ra_cfg.txt
+
+# --- FSP + generated sources (committed so the project builds without regeneration) ---
+!/ra/
+!/ra_gen/
+!/ra_cfg/
+!/script/
+
+# --- Application source ---
+!/src/
