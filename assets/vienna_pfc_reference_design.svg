@@ -1,0 +1,138 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1240 740" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif">
+<defs>
+<marker id="m_power" markerWidth="9" markerHeight="9" refX="7.5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#1d2733"/></marker>
+<marker id="m_pwm" markerWidth="9" markerHeight="9" refX="7.5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#0a7bbb"/></marker>
+<marker id="m_sense" markerWidth="9" markerHeight="9" refX="7.5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#2a9d8f"/></marker>
+<marker id="m_prot" markerWidth="9" markerHeight="9" refX="7.5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#e63946"/></marker>
+<marker id="m_dac" markerWidth="9" markerHeight="9" refX="7.5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#7b4fc0"/></marker>
+<marker id="m_aux" markerWidth="9" markerHeight="9" refX="7.5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#8a94a0"/></marker>
+</defs>
+<rect x="6" y="6" width="1228" height="728" rx="14" fill="#ffffff" stroke="#e3e9ef" stroke-width="1.5"/>
+<text x="620.0" y="34" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="20" fill="#1d2733" text-anchor="middle" font-weight="bold" font-style="normal">Three-Phase Vienna PFC Front End  ·  Reference Design</text>
+<text x="620.0" y="55" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#5b6b7b" text-anchor="middle" font-weight="normal" font-style="normal">480 Vrms 3-phase AC in  →  regulated 800 V split DC bus out  ·  Renesas RA6T2 + GaN BDS</text>
+<text x="20" y="84" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11" fill="#5b6b7b" text-anchor="start" font-weight="bold" font-style="normal">POWER PATH</text>
+<text x="20" y="196" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11" fill="#5b6b7b" text-anchor="start" font-weight="bold" font-style="normal">ANALOG FRONT END</text>
+<text x="20" y="316" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11" fill="#5b6b7b" text-anchor="start" font-weight="bold" font-style="normal">CONTROLLER</text>
+<rect x="24" y="92" width="150" height="92" rx="9" fill="#e8f1fa" stroke="#0a7bbb" stroke-width="2"/>
+<text x="99.0" y="112" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#1d2733" text-anchor="middle" font-weight="bold" font-style="normal">3-Phase Grid</text>
+<text x="99.0" y="130" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="10.5" fill="#5b6b7b" text-anchor="middle" font-weight="normal" font-style="normal">480 Vrms</text>
+<text x="99.0" y="144" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="10.5" fill="#5b6b7b" text-anchor="middle" font-weight="normal" font-style="normal">L1  L2  L3</text>
+<rect x="194" y="92" width="120" height="92" rx="9" fill="#e8f1fa" stroke="#0a7bbb" stroke-width="2"/>
+<text x="254.0" y="112" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#1d2733" text-anchor="middle" font-weight="bold" font-style="normal">EMI Filter</text>
+<text x="254.0" y="130" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="10.5" fill="#5b6b7b" text-anchor="middle" font-weight="normal" font-style="normal">IEC 61000-3</text>
+<text x="254.0" y="144" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="10.5" fill="#5b6b7b" text-anchor="middle" font-weight="normal" font-style="normal">-2 / -3</text>
+<rect x="334" y="92" width="150" height="92" rx="9" fill="#e8f1fa" stroke="#0a7bbb" stroke-width="2"/>
+<text x="409.0" y="112" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#1d2733" text-anchor="middle" font-weight="bold" font-style="normal">Boost Inductors</text>
+<text x="409.0" y="130" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="10.5" fill="#5b6b7b" text-anchor="middle" font-weight="normal" font-style="normal">La   Lb   Lc</text>
+<text x="409.0" y="144" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="10.5" fill="#5b6b7b" text-anchor="middle" font-weight="normal" font-style="normal">one per phase</text>
+<rect x="504" y="92" width="310" height="92" rx="9" fill="#fff3df" stroke="#e08a00" stroke-width="2"/>
+<text x="659.0" y="112" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#1d2733" text-anchor="middle" font-weight="bold" font-style="normal">Vienna Power Stage  (3-level)</text>
+<text x="659.0" y="130" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="10.5" fill="#5b6b7b" text-anchor="middle" font-weight="normal" font-style="normal">3× GaN BDS = neutral-point switch</text>
+<text x="659.0" y="144" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="10.5" fill="#5b6b7b" text-anchor="middle" font-weight="normal" font-style="normal">+ SiC diode output rails</text>
+<text x="659.0" y="175" font-family="ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace" font-size="10.5" fill="#e08a00" text-anchor="middle" font-weight="bold" font-style="normal">TP65B110HRU  ×3</text>
+<rect x="834" y="92" width="190" height="92" rx="9" fill="#f1ecfa" stroke="#7b4fc0" stroke-width="2"/>
+<text x="929.0" y="112" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#1d2733" text-anchor="middle" font-weight="bold" font-style="normal">Split DC Bus</text>
+<text x="929.0" y="130" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="10.5" fill="#5b6b7b" text-anchor="middle" font-weight="normal" font-style="normal">+400 V  /  N  /  -400 V</text>
+<text x="929.0" y="144" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="10.5" fill="#5b6b7b" text-anchor="middle" font-weight="normal" font-style="normal">= 800 V total</text>
+<rect x="1044" y="92" width="172" height="92" rx="9" fill="#e8f1fa" stroke="#0a7bbb" stroke-width="2"/>
+<text x="1130.0" y="112" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#1d2733" text-anchor="middle" font-weight="bold" font-style="normal">800 V DC</text>
+<text x="1130.0" y="130" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="10.5" fill="#5b6b7b" text-anchor="middle" font-weight="normal" font-style="normal">→ Stage 2</text>
+<text x="1130.0" y="144" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="10.5" fill="#5b6b7b" text-anchor="middle" font-weight="normal" font-style="normal">LLC DCX</text>
+<line x1="174" y1="138.0" x2="194" y2="138.0" stroke="#1d2733" stroke-width="4" marker-end="url(#m_power)"/>
+<line x1="314" y1="138.0" x2="334" y2="138.0" stroke="#1d2733" stroke-width="4" marker-end="url(#m_power)"/>
+<line x1="484" y1="138.0" x2="504" y2="138.0" stroke="#1d2733" stroke-width="4" marker-end="url(#m_power)"/>
+<line x1="814" y1="138.0" x2="834" y2="138.0" stroke="#1d2733" stroke-width="4" marker-end="url(#m_power)"/>
+<line x1="1024" y1="138.0" x2="1044" y2="138.0" stroke="#1d2733" stroke-width="4" marker-end="url(#m_power)"/>
+<rect x="334" y="206" width="150" height="72" rx="9" fill="#eef2f7" stroke="#3a4756" stroke-width="2"/>
+<text x="409.0" y="226" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#1d2733" text-anchor="middle" font-weight="bold" font-style="normal">Isolated Current Sense</text>
+<text x="409.0" y="244" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="10.5" fill="#5b6b7b" text-anchor="middle" font-weight="normal" font-style="normal">×3   → Ia  Ib  Ic</text>
+<rect x="520" y="206" width="294" height="72" rx="9" fill="#eef2f7" stroke="#3a4756" stroke-width="2"/>
+<text x="667.0" y="226" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#1d2733" text-anchor="middle" font-weight="bold" font-style="normal">Isolated Gate Driver  ×3</text>
+<text x="667.0" y="244" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="10.5" fill="#5b6b7b" text-anchor="middle" font-weight="normal" font-style="normal">floating HV drive for the GaN BDS gates</text>
+<rect x="834" y="206" width="190" height="72" rx="9" fill="#eef2f7" stroke="#3a4756" stroke-width="2"/>
+<text x="929.0" y="226" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#1d2733" text-anchor="middle" font-weight="bold" font-style="normal">Aux Bias</text>
+<text x="929.0" y="244" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="10.5" fill="#5b6b7b" text-anchor="middle" font-weight="normal" font-style="normal">control-side rails</text>
+<text x="929.0" y="269" font-family="ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace" font-size="10.5" fill="#0a7bbb" text-anchor="middle" font-weight="bold" font-style="normal">iW1825  700 V</text>
+<line x1="409.0" y1="184" x2="409.0" y2="206" stroke="#2a9d8f" stroke-width="2" marker-end="url(#m_sense)"/>
+<line x1="667.0" y1="206" x2="659.0" y2="184" stroke="#0a7bbb" stroke-width="2.5" marker-end="url(#m_pwm)"/>
+<text x="589.0" y="200" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="10" fill="#0a7bbb" text-anchor="middle" font-weight="bold" font-style="normal">gate</text>
+<line x1="929.0" y1="184" x2="929.0" y2="206" stroke="#8a94a0" stroke-width="2" stroke-dasharray="4 3" marker-end="url(#m_aux)"/>
+<rect x="24" y="324" width="1192" height="210" rx="11" fill="#f5f7fa" stroke="#1d2733" stroke-width="2.5"/>
+<text x="620.0" y="348" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="14.5" fill="#1d2733" text-anchor="middle" font-weight="bold" font-style="normal">Renesas RA6T2   ·   R7FA6T2AD3CNE   ·   Arm Cortex-M33 @ 240 MHz, FPU</text>
+<rect x="80" y="368" width="248" height="130" rx="9" fill="#ffffff" stroke="#5b6b7b" stroke-width="2"/>
+<text x="204.0" y="388" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#1d2733" text-anchor="middle" font-weight="bold" font-style="normal">ADC_B  (8 ch)</text>
+<text x="204.0" y="406" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="10.5" fill="#5b6b7b" text-anchor="middle" font-weight="normal" font-style="normal">trough-synced scan</text>
+<text x="204.0" y="420" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="10.5" fill="#5b6b7b" text-anchor="middle" font-weight="normal" font-style="normal">AN000-002  Va Vb Vc</text>
+<text x="204.0" y="434" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="10.5" fill="#5b6b7b" text-anchor="middle" font-weight="normal" font-style="normal">AN003-005  Ia Ib Ic</text>
+<text x="204.0" y="448" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="10.5" fill="#5b6b7b" text-anchor="middle" font-weight="normal" font-style="normal">AN006-007  V+ V-</text>
+<rect x="348" y="368" width="170" height="130" rx="9" fill="#ffffff" stroke="#5b6b7b" stroke-width="2"/>
+<text x="433.0" y="388" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#1d2733" text-anchor="middle" font-weight="bold" font-style="normal">ACMPHS ×3</text>
+<text x="433.0" y="406" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="10.5" fill="#5b6b7b" text-anchor="middle" font-weight="normal" font-style="normal">per-phase OCP</text>
+<text x="433.0" y="420" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="10.5" fill="#5b6b7b" text-anchor="middle" font-weight="normal" font-style="normal">AN012/013/014</text>
+<text x="433.0" y="434" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="10.5" fill="#5b6b7b" text-anchor="middle" font-weight="normal" font-style="normal">IVREF = DA3</text>
+<rect x="678" y="368" width="198" height="130" rx="9" fill="#ffffff" stroke="#5b6b7b" stroke-width="2"/>
+<text x="777.0" y="388" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#1d2733" text-anchor="middle" font-weight="bold" font-style="normal">3-Phase GPT</text>
+<text x="777.0" y="406" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="10.5" fill="#5b6b7b" text-anchor="middle" font-weight="normal" font-style="normal">complementary PWM</text>
+<text x="777.0" y="420" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="10.5" fill="#5b6b7b" text-anchor="middle" font-weight="normal" font-style="normal">GTIOC0/1/2 A·B</text>
+<text x="777.0" y="434" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="10.5" fill="#5b6b7b" text-anchor="middle" font-weight="normal" font-style="normal">65 kHz, dead-time</text>
+<rect x="538" y="368" width="120" height="130" rx="9" fill="#ffffff" stroke="#5b6b7b" stroke-width="2"/>
+<text x="598.0" y="388" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#1d2733" text-anchor="middle" font-weight="bold" font-style="normal">DAC12</text>
+<text x="598.0" y="406" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="10.5" fill="#5b6b7b" text-anchor="middle" font-weight="normal" font-style="normal">DA3</text>
+<text x="598.0" y="420" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="10.5" fill="#5b6b7b" text-anchor="middle" font-weight="normal" font-style="normal">OCP threshold</text>
+<rect x="896" y="368" width="280" height="130" rx="9" fill="#ffffff" stroke="#5b6b7b" stroke-width="2"/>
+<text x="1036.0" y="388" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#1d2733" text-anchor="middle" font-weight="bold" font-style="normal">POEG</text>
+<text x="1036.0" y="406" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="10.5" fill="#5b6b7b" text-anchor="middle" font-weight="normal" font-style="normal">hardware gate kill</text>
+<text x="1036.0" y="420" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="10.5" fill="#5b6b7b" text-anchor="middle" font-weight="normal" font-style="normal">outputs off &lt; 100 ns</text>
+<text x="1036.0" y="434" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="10.5" fill="#5b6b7b" text-anchor="middle" font-weight="normal" font-style="normal">no CPU in path</text>
+<line x1="777.0" y1="368" x2="667.0" y2="278" stroke="#0a7bbb" stroke-width="2.5" marker-end="url(#m_pwm)"/>
+<text x="789.0" y="323.0" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="10.5" fill="#0a7bbb" text-anchor="start" font-weight="bold" font-style="normal">PWM</text>
+<polyline points="54,184 54,300 118,300 118,368" fill="none" stroke="#2a9d8f" stroke-width="2" marker-end="url(#m_sense)"/>
+<text x="58" y="295" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="9.5" fill="#2a9d8f" text-anchor="start" font-weight="bold" font-style="normal">Va Vb Vc → AN000-002</text>
+<polyline points="409.0,278 409.0,308 294,308 294,368" fill="none" stroke="#2a9d8f" stroke-width="2" marker-end="url(#m_sense)"/>
+<line x1="409.0" y1="278" x2="433.0" y2="368" stroke="#2a9d8f" stroke-width="2" marker-end="url(#m_sense)"/>
+<text x="383.0" y="323.0" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="9.5" fill="#2a9d8f" text-anchor="end" font-weight="bold" font-style="normal">Ia Ib Ic</text>
+<polyline points="998,184 998,292 204.0,292 204.0,368" fill="none" stroke="#2a9d8f" stroke-width="2" marker-end="url(#m_sense)"/>
+<text x="1002" y="287" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="9.5" fill="#2a9d8f" text-anchor="start" font-weight="bold" font-style="normal">V+ V- → AN006-007</text>
+<line x1="538" y1="422" x2="518" y2="422" stroke="#7b4fc0" stroke-width="2" marker-end="url(#m_dac)"/>
+<text x="528.0" y="416" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="9.5" fill="#7b4fc0" text-anchor="middle" font-weight="bold" font-style="normal">DA3</text>
+<polyline points="433.0,498 433.0,516 1036.0,516 1036.0,498" fill="none" stroke="#e63946" stroke-width="2.5" marker-end="url(#m_prot)"/>
+<text x="734.5" y="512" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="9.5" fill="#e63946" text-anchor="middle" font-weight="bold" font-style="normal">trip (OCP)</text>
+<polyline points="1036.0,368 1036.0,300 780,300 780,278" fill="none" stroke="#e63946" stroke-width="2.5" marker-end="url(#m_prot)"/>
+<text x="784" y="296" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="9.5" fill="#e63946" text-anchor="start" font-weight="bold" font-style="normal">OCP disable &lt; 100 ns</text>
+<line x1="929.0" y1="278" x2="929.0" y2="324" stroke="#8a94a0" stroke-width="2" stroke-dasharray="4 3" marker-end="url(#m_aux)"/>
+<text x="937.0" y="301.0" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="9.5" fill="#8a94a0" text-anchor="start" font-weight="bold" font-style="normal">bias</text>
+<rect x="24" y="560" width="720" height="156" rx="10" fill="#fbfcfd" stroke="#e3e9ef" stroke-width="1.5"/>
+<text x="40" y="582" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#1d2733" text-anchor="start" font-weight="bold" font-style="normal">Renesas silicon</text>
+<text x="40" y="604" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="10.5" fill="#1d2733" text-anchor="start" font-weight="bold" font-style="normal">MCU:</text>
+<text x="170" y="604" font-family="ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace" font-size="10.5" fill="#0a7bbb" text-anchor="start" font-weight="bold" font-style="normal">R7FA6T2AD3CNE</text>
+<text x="360" y="604" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="10.5" fill="#5b6b7b" text-anchor="start" font-weight="normal" font-style="normal">RA6T2, Cortex-M33 240 MHz, FPU</text>
+<text x="40" y="622.5" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="10.5" fill="#1d2733" text-anchor="start" font-weight="bold" font-style="normal">GaN BDS ×3:</text>
+<text x="170" y="622.5" font-family="ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace" font-size="10.5" fill="#0a7bbb" text-anchor="start" font-weight="bold" font-style="normal">TP65B110HRU</text>
+<text x="360" y="622.5" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="10.5" fill="#5b6b7b" text-anchor="start" font-weight="normal" font-style="normal">650 V, 110 mΩ bidirectional SuperGaN, TOLT</text>
+<text x="40" y="641.0" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="10.5" fill="#1d2733" text-anchor="start" font-weight="bold" font-style="normal">Output rectifiers:</text>
+<text x="170" y="641.0" font-family="ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace" font-size="10.5" fill="#0a7bbb" text-anchor="start" font-weight="bold" font-style="normal">SiC diodes</text>
+<text x="360" y="641.0" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="10.5" fill="#5b6b7b" text-anchor="start" font-weight="normal" font-style="normal">3-level rectification to +/-400 V</text>
+<text x="40" y="659.5" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="10.5" fill="#1d2733" text-anchor="start" font-weight="bold" font-style="normal">Gate driver ×3:</text>
+<text x="170" y="659.5" font-family="ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace" font-size="10.5" fill="#0a7bbb" text-anchor="start" font-weight="bold" font-style="normal">isolated (PN TBC)</text>
+<text x="360" y="659.5" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="10.5" fill="#5b6b7b" text-anchor="start" font-weight="normal" font-style="normal">floating HV gate drive for BDS</text>
+<text x="40" y="678.0" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="10.5" fill="#1d2733" text-anchor="start" font-weight="bold" font-style="normal">Current sense ×3:</text>
+<text x="170" y="678.0" font-family="ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace" font-size="10.5" fill="#0a7bbb" text-anchor="start" font-weight="bold" font-style="normal">isolated amp</text>
+<text x="360" y="678.0" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="10.5" fill="#5b6b7b" text-anchor="start" font-weight="normal" font-style="normal">phase current to ADC + comparator</text>
+<text x="40" y="696.5" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="10.5" fill="#1d2733" text-anchor="start" font-weight="bold" font-style="normal">Aux bias:</text>
+<text x="170" y="696.5" font-family="ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace" font-size="10.5" fill="#0a7bbb" text-anchor="start" font-weight="bold" font-style="normal">iW1825</text>
+<text x="360" y="696.5" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="10.5" fill="#5b6b7b" text-anchor="start" font-weight="normal" font-style="normal">700 V flyback from the HV bus</text>
+<rect x="770" y="560" width="446" height="156" rx="10" fill="#fbfcfd" stroke="#e3e9ef" stroke-width="1.5"/>
+<text x="786" y="582" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#1d2733" text-anchor="start" font-weight="bold" font-style="normal">Signal key</text>
+<line x1="788" y1="600" x2="824" y2="600" stroke="#1d2733" stroke-width="3" marker-end="url(#m_power)"/>
+<text x="836" y="604" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="10.5" fill="#1d2733" text-anchor="start" font-weight="normal" font-style="normal">Power flow</text>
+<line x1="788" y1="618.5" x2="824" y2="618.5" stroke="#0a7bbb" stroke-width="3" marker-end="url(#m_pwm)"/>
+<text x="836" y="622.5" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="10.5" fill="#1d2733" text-anchor="start" font-weight="normal" font-style="normal">PWM / gate drive</text>
+<line x1="788" y1="637.0" x2="824" y2="637.0" stroke="#2a9d8f" stroke-width="3" marker-end="url(#m_sense)"/>
+<text x="836" y="641.0" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="10.5" fill="#1d2733" text-anchor="start" font-weight="normal" font-style="normal">Sensing (ADC)</text>
+<line x1="788" y1="655.5" x2="824" y2="655.5" stroke="#e63946" stroke-width="3" marker-end="url(#m_prot)"/>
+<text x="836" y="659.5" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="10.5" fill="#1d2733" text-anchor="start" font-weight="normal" font-style="normal">Protection (hardware trip)</text>
+<line x1="788" y1="674.0" x2="824" y2="674.0" stroke="#7b4fc0" stroke-width="3" marker-end="url(#m_dac)"/>
+<text x="836" y="678.0" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="10.5" fill="#1d2733" text-anchor="start" font-weight="normal" font-style="normal">DAC threshold</text>
+<line x1="788" y1="692.5" x2="824" y2="692.5" stroke="#8a94a0" stroke-width="3" marker-end="url(#m_aux)"/>
+<text x="836" y="696.5" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="10.5" fill="#1d2733" text-anchor="start" font-weight="normal" font-style="normal">Aux bias</text>
+</svg>
