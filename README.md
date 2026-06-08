@@ -89,7 +89,6 @@ The Park transform needs the grid angle **theta** at every instant, and theta ha
 
 ![PLL lock animation](assets/pll_lock.gif)
 
-*[Interactive version](https://naveens-lab.github.io/ra6t2-vienna-pfc-fw/pll_lock.html): watch the estimated angle pull into alignment with the grid and the q-axis error settle to zero.*
 
 This firmware's PLL starts at a 60 Hz estimate, clamps the frequency to a 45 to 65 Hz window as a runaway guard, and declares lock when the normalized angle error stays inside a band of about 2 degrees for roughly 15 ms.
 
