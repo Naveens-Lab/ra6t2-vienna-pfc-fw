@@ -82,7 +82,6 @@ That is the trick. Once the currents are DC in the dq frame, a simple PI control
 
 ![Clarke and Park transform animation](assets/clarke_park_dq.gif)
 
-*[Interactive version](https://naveens-lab.github.io/ra6t2-vienna-pfc-fw/clarke_park_dq.html): watch the three phase sinusoids collapse to a rotating alpha-beta vector, then freeze into DC values in the dq frame.*
 
 ### 3.2 The PLL: locking to the grid angle
 
@@ -100,7 +99,6 @@ After the control loops compute the voltage the converter should apply (in the d
 
 ![SVPWM animation](assets/svpwm.gif)
 
-*[Interactive version](https://naveens-lab.github.io/ra6t2-vienna-pfc-fw/svpwm.html): watch the rotating reference vector sweep the space-vector hexagon and generate the three phase duties.*
 
 ---
 
