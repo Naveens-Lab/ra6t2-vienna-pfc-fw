@@ -308,7 +308,6 @@ The control ISR (`pfc_control_isr`) is deliberately the only place the loop is a
 - [ ] Bench: PI gain tuning against the real plant
 - [ ] Bench: sensing scale factors and OCP threshold from the actual current-sense and shunt
 - [ ] Bench: Id soft-start ramp rate
-- [ ] Confirm Stage 1 gate-driver and current-sense part numbers from the Winning Combination BOM
 
 ---
 
